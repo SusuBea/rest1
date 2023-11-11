@@ -1,1 +1,1 @@
-# RESTFULL kezdemény JSON fájlból
+# RESTFUL kezdemény JSON fájlból
