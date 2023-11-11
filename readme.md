@@ -1,0 +1,1 @@
+# RESTFULL kezdemény JSON fájlból

@@ -1,0 +1,32 @@
+{
+    "irok": [
+        {
+            "id": 1,
+            "nev" : "József Attila",
+            "szul": 1905
+        },
+        {
+            
+            "id": 2,
+            "nev" : "Lackfy János",
+            "szul": 1969
+
+        }], 
+
+        "konyvek": [
+            {
+                "cim" : "József Attila",
+                "iroAzon" : 1
+            },
+
+            {
+                "cim" : "Lackfy János",
+                "iroAzon": 2
+    
+            }
+
+
+    ]
+
+
+}
