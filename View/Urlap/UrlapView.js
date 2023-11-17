@@ -3,8 +3,9 @@ export default class UrlapView {
     //létrehozok egy form taget
     //létrehozok egy kapaszkodót a formelemhez this.formElem
     this.szuloElem = szuloElem;
-    let txt = this.htmlOsszerak();
-    this.szuloElem.append(txt);
+    //let txt = this.htmlOsszerak();
+    this.htmlOsszerak();
+    
 
 
   }
@@ -22,7 +23,7 @@ export default class UrlapView {
         <input type="submit" value="Submit">
       </form>`;
 
-      return txt;
+      this.szuloElem.append(txt);
 
     // <div class="mb-3 mt-3">
     //     <label for="email" class="form-label">Email:</label>

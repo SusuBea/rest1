@@ -8,6 +8,7 @@ export default class Controller{
         this.dataService = new DataService();
         this.dataService.getData("adatok.json", this.megjelenit)
         this.lista = adatLeiro;
+        new UrlapView($(".urlap"));
         
     }
 
@@ -15,7 +16,7 @@ export default class Controller{
         console.log(list)
         //példányosítjuk a view-t Táblázatot
         new TablaView(list, $(".adatok"));
-        new UrlapView($(".urlap"));
+        
 
     }
 
